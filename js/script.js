@@ -25,11 +25,6 @@ function myFunction() {
             if (weekEnd[i].checked) { //boolean -> true if the radio button is selected
                 selectedValue.push(weekEnd[i].value); //value of selected button pushed to output
             }
-    const selectedValue = [];
-    for (let i = 0; i < weekEnd.length; i++) { // for loop -> each radio button(circles) in the collection
-            if (weekEnd[i].checked) { //boolean -> true if the radio button is selected
-                selectedValue.push(weekEnd[i].value); //value of selected button pushed to output
-            }
 
     const checkedValues = [];
     checkBoxes.forEach(checkbox => {

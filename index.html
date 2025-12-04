@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Questionaire</title>
+</head>
+<body>
+      <h1>Getting to Know You Questionaire</h1>
+<div class="container">
+  <form id="profileForm">
+    <label>Name:</label>
+    <input type="text" id="nameInput" placeholder="Your Name"><br><br>
+
+    <label>Age:</label>
+    <input type="number" id="ageInput" placeholder="Your Age"><br><br>
+
+     <label class="gen">Gender:</label>
+    <select id="genderInput">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Non-Binary</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <label class="pers">What is your MBTI?:</label>
+    <select id="personalityInput">
+      <option>ISTJ</option>
+      <option>ENFP</option>
+      <option>INFJ</option>
+      <option>ESTP</option>
+      <option>Other</option>
+    </select><br><br>
+    
+  <label class="week">What's your ideal way to spend a weekend?:</label><br>
+    <input type="radio" name="ideal" value="Connect with nature(Go for a walk in a park, have a picnic, or just find a bench to enjoy your coffee in a natural setting.)">Connect with nature(Go for a walk in a park, have a picnic, or just find a bench to enjoy your coffee in a natural setting.)<br>
+    <input type="radio" name="ideal" value="Stay at Home (Have a movie night, read a book, take a long bath, or try a longer skincare routine)" >Stay at Home (Have a movie night, read a book, take a long bath, or try a longer skincare routine)<br>
+    <input type="radio" name="ideal" value="Go out and try new things(Explore your local area, Visit a local museum, a new park, a different neighborhood, or a local restaurant.)">Go out and try new things(Explore your local area, Visit a local museum, a new park, a different neighborhood, or a local restaurant.) <br><br>
+
+    <label class="pet">Pet(s):</label><br>
+    <input type="radio" name="pet" value="Cat">Cat<br>
+    <input type="radio" name="pet" value="Dog">Dog<br>
+    <input type="radio" name="pet" value="Fish">Fish<br>
+    <input type="radio" name="pet" value="Hamster">Hamster<br>
+    <input type="radio" name="pet" value="Bunny">Bunny<br>
+    <input type="radio" name="pet" value="No Pet">No Pet<br><br>
+
+     <label>What kind of music do you enjoy?:</label><br>
+    <input type="checkbox" class="music" value="RnB">RnB<br>
+    <input type="checkbox" class="music" value="Indie">Indie<br>
+    <input type="checkbox" class="music" value="Hip-Hop">Hip-Hop<br>
+    <input type="checkbox" class="music" value="Rap">Rap<br><br>
+
+    <button type="button" id="submitBtn" class="form-btn sx log-in">Create Profile</button>
+   
+  </form>
+</div>
+  <h2>Your Profile:</h2>
+  <p id="output"></p>
+
+  
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+  
